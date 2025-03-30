@@ -1,0 +1,504 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "imageURL": "/yazd.jpg",
+      "city": "Yazd",
+      "description": "Yazd Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum."
+    },
+    {
+      "id": 2,
+      "imageURL": "/tehran.jpg",
+      "city": "Tehran",
+      "description": "Tehran is the capital of Iran and is known for its modern and historic places."
+    },
+    {
+      "id": 3,
+      "imageURL": "/esfehan.jpg",
+      "city": "Esfahan",
+      "description": "Esfahan, famous for its historical monuments and bridges, is a must-visit destination."
+    },
+    {
+      "id": 4,
+      "imageURL": "/kashan.jpg",
+      "city": "Kashan",
+      "description": "Kashan Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum."
+    },
+    {
+      "id": 5,
+      "imageURL": "/kish.jpg",
+      "city": "Kish",
+      "description": "Kish is the capital of Iran and is known for its modern and historic places."
+    },
+    {
+      "id": 6,
+      "imageURL": "/tabriz.jpg",
+      "city": "Tabriz",
+      "description": "Tabriz, famous for its historical monuments and bridges, is a must-visit destination."
+    },
+    {
+      "id": 7,
+      "imageURL": "/gheshm.jpg",
+      "city": "Gheshm",
+      "description": "Gheshm is the capital of Iran and is known for its modern and historic places."
+    },
+    {
+      "id": 8,
+      "imageURL": "/amol.jpg",
+      "city": "Amol",
+      "description": "Amol is the capital of Iran and is known for its modern and historic places."
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "imageURL": "/hr_1.jpg",
+      "imageURL1": "/hr_2.jpg",
+      "imageURL2": "/hr_3.jpg",
+      "city": "Abbasi Hotel",
+      "description": "Abbasi Hotel Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "200.00",
+      "location": "Tehran",
+      "noOfBed": "2",
+      "wifi": "true",
+      "facilities": {
+        "roomService": true,
+        "Restaurant": true,
+        "Pool": true,
+        "Gym": false,
+        "Spa": true,
+        "FreeParking": false,
+        "Laundry": false,
+        "InternetAccess": true,
+        "Minibar": true,
+        "SafeBox": false
+      },
+      "review": [
+        {
+          "userImg": "/ent_1.jpg",
+          "name": "John Doe",
+          "time": "3",
+          "comment": "I like it",
+          "starRate": "3"
+        },
+        {
+          "userImg": "/ent_2.jpg",
+          "name": "Petter",
+          "time": "3",
+          "comment": "I really enjoy this trip!",
+          "starRate": "5"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imageURL": "/hr_4.jpg",
+      "imageURL1": "/hr_5.jpg",
+      "imageURL2": "/hr_6.jpg",
+      "city": "Espinas Palace",
+      "description": "Espinas Palace is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "700.00",
+      "location": "Tehran",
+      "noOfBed": "3",
+      "wifi": "true",
+      "facilities": {
+        "roomService": true,
+        "Restaurant": false,
+        "Pool": false,
+        "Gym": false,
+        "Spa": true,
+        "FreeParking": true,
+        "Laundry": false,
+        "InternetAccess": true,
+        "Minibar": true,
+        "SafeBox": false
+      },
+      "review": [
+        {
+          "userImg": "/ent_3.jpg",
+          "name": "Sara Rey",
+          "time": "6",
+          "comment": "I like it",
+          "starRate": "4"
+        },
+        {
+          "userImg": "/ent_4.jpg",
+          "name": "David",
+          "time": "1",
+          "comment": "I really enjoy this trip!",
+          "starRate": "3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imageURL": "/hr_7.jpg",
+      "imageURL1": "/hr_8.jpg",
+      "imageURL2": "/hr_9.jpg",
+      "city": "Persian Esteghlal",
+      "description": "Persian Esteghlal, famous for its historical monuments and bridges, is a must-visit destination. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "300.00",
+      "location": "Tehran",
+      "noOfBed": "4",
+      "wifi": "true",
+      "facilities": {
+        "roomService": true,
+        "Restaurant": false,
+        "Pool": true,
+        "Gym": true,
+        "Spa": true,
+        "FreeParking": true,
+        "Laundry": false,
+        "InternetAccess": false,
+        "Minibar": true,
+        "SafeBox": true
+      },
+      "review": [
+        {
+          "userImg": "/ent_5.jpg",
+          "name": "John Doe",
+          "time": "22",
+          "comment": "Overall it is good",
+          "starRate": "3"
+        },
+        {
+          "userImg": "/ent_6.jpg",
+          "name": "Jenifer",
+          "time": "43",
+          "comment": "I really enjoy this trip!",
+          "starRate": "5"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "imageURL": "/hr_9.jpg",
+      "imageURL1": "/hr_10.jpg",
+      "imageURL2": "/hr_2.jpg",
+      "city": "Saraye Ameriha",
+      "description": "Saraye Ameriha Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "200.00",
+      "location": "Tehran",
+      "noOfBed": "2",
+      "wifi": "true",
+      "facilities": {
+        "roomService": true,
+        "Restaurant": true,
+        "Pool": true,
+        "Gym": true,
+        "Spa": true,
+        "FreeParking": true,
+        "Laundry": true,
+        "InternetAccess": true,
+        "Minibar": true,
+        "SafeBox": false
+      },
+      "review": [
+        {
+          "userImg": "/ent_7.jpg",
+          "name": "John",
+          "time": "9",
+          "comment": "I like it",
+          "starRate": "3"
+        },
+        {
+          "userImg": "/ent_8.jpg",
+          "name": "Bill",
+          "time": "38",
+          "comment": "Not bad",
+          "starRate": "2"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "imageURL": "/hr_3.jpg",
+      "imageURL1": "/hr_2.jpg",
+      "imageURL2": "/hr_1.jpg",
+      "city": "Laleh",
+      "description": "Laleh is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "10.00",
+      "location": "Tehran",
+      "noOfBed": "1",
+      "wifi": "true",
+      "facilities": {
+        "roomService": false,
+        "Restaurant": false,
+        "Pool": true,
+        "Gym": false,
+        "Spa": false,
+        "FreeParking": false,
+        "Laundry": false,
+        "InternetAccess": true,
+        "Minibar": true,
+        "SafeBox": false
+      },
+      "review": [
+        {
+          "userImg": "/ent_1.jpg",
+          "name": "Doe",
+          "time": "23",
+          "comment": "I like it",
+          "starRate": "3"
+        },
+        {
+          "userImg": "/ent_2.jpg",
+          "name": "Oliver.o",
+          "time": "13",
+          "comment": "Best trip!",
+          "starRate": "5"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "imageURL": "/hr_6.jpg",
+      "imageURL1": "/hr_7.jpg",
+      "imageURL2": "/hr_8.jpg",
+      "city": "Almas",
+      "description": "Almas, famous for its historical monuments and bridges, is a must-visit destination. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "200.00",
+      "location": "Tehran",
+      "noOfBed": "3",
+      "wifi": "true",
+      "facilities": {
+        "roomService": false,
+        "Restaurant": false,
+        "Pool": true,
+        "Gym": false,
+        "Spa": true,
+        "FreeParking": true,
+        "Laundry": false,
+        "InternetAccess": true,
+        "Minibar": true,
+        "SafeBox": true
+      },
+      "review": [
+        {
+          "userImg": "/ent_3.jpg",
+          "name": "Rose",
+          "time": "10",
+          "comment": "I like it",
+          "starRate": "3"
+        },
+        {
+          "userImg": "/ent_4.jpg",
+          "name": "Joe",
+          "time": "3",
+          "comment": "Yeess",
+          "starRate": "5"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "imageURL": "/hr_9.jpg",
+      "imageURL1": "/hr_2.jpg",
+      "imageURL2": "/hr_1.jpg",
+      "city": "Chamran",
+      "description": "Chamran is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "20.00",
+      "location": "Kish",
+      "noOfBed": "4",
+      "wifi": "true",
+      "facilities": {
+        "roomService": true,
+        "Restaurant": false,
+        "Pool": false,
+        "Gym": false,
+        "Spa": true,
+        "FreeParking": true,
+        "Laundry": false,
+        "InternetAccess": true,
+        "Minibar": false,
+        "SafeBox": true
+      },
+      "review": [
+        {
+          "userImg": "/ent_5.jpg",
+          "name": "Justin Doe",
+          "time": "8",
+          "comment": "I like it",
+          "starRate": "3"
+        },
+        {
+          "userImg": "/ent_6.jpg",
+          "name": "Rihanna",
+          "time": "3",
+          "comment": "I really enjoy this trip!",
+          "starRate": "5"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "imageURL": "/hr_2.jpg",
+      "imageURL1": "/hr_5.jpg",
+      "imageURL2": "/hr_4.jpg",
+      "city": "Dad",
+      "description": "Dad is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "100.00",
+      "location": "Yazd",
+      "noOfBed": "2",
+      "wifi": "false",
+      "facilities": {
+        "roomService": false,
+        "Restaurant": true,
+        "Pool": true,
+        "Gym": true,
+        "Spa": false,
+        "FreeParking": false,
+        "Laundry": false,
+        "InternetAccess": true,
+        "Minibar": true,
+        "SafeBox": true
+      },
+      "review": [
+        {
+          "userImg": "/ent_7.jpg",
+          "name": "Nahro P",
+          "time": "3",
+          "comment": "I like it",
+          "starRate": "4"
+        },
+        {
+          "userImg": "/ent_8.jpg",
+          "name": "Mio M.",
+          "time": "3",
+          "comment": "I really enjoy this trip!",
+          "starRate": "5"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "imageURL": "/hr_2.jpg",
+      "imageURL1": "/hr_10.jpg",
+      "imageURL2": "/hr_8.jpg",
+      "city": "Ghasr",
+      "description": "Ghasr is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "130.00",
+      "location": "Esfehan",
+      "noOfBed": "2",
+      "wifi": "true",
+      "facilities": {
+        "roomService": true,
+        "Restaurant": true,
+        "Pool": true,
+        "Gym": true,
+        "Spa": true,
+        "FreeParking": false,
+        "Laundry": true,
+        "InternetAccess": false,
+        "Minibar": false,
+        "SafeBox": true
+      },
+      "review": [
+        {
+          "userImg": "/ent_1.jpg",
+          "name": "John Doe",
+          "time": "3",
+          "comment": "I like it",
+          "starRate": "3"
+        },
+        {
+          "userImg": "/ent_2.jpg",
+          "name": "Petter",
+          "time": "3",
+          "comment": "I really enjoy this trip!",
+          "starRate": "5"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "imageURL": "/hr_5.jpg",
+      "imageURL1": "/hr_6.jpg",
+      "imageURL2": "/hr_7.jpg",
+      "city": "Ragrug",
+      "description": "Ragrug is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "price": "220.00",
+      "location": "Gheshm",
+      "noOfBed": "1",
+      "wifi": "false",
+      "facilities": {
+        "roomService": true,
+        "Restaurant": false,
+        "Pool": true,
+        "Gym": true,
+        "Spa": true,
+        "FreeParking": true,
+        "Laundry": true,
+        "InternetAccess": true,
+        "Minibar": true,
+        "SafeBox": false
+      },
+      "review": [
+        {
+          "userImg": "/ent_1.jpg",
+          "name": "John Doe",
+          "time": "3",
+          "comment": "I like it",
+          "starRate": "3"
+        },
+        {
+          "userImg": "/ent_2.jpg",
+          "name": "Petter",
+          "time": "3",
+          "comment": "I really enjoy this trip!",
+          "starRate": "5"
+        }
+      ]
+    }
+  ],
+  "entertainment": [
+    {
+      "id": 1,
+      "imageURL": "/ent_1.jpg",
+      "city": "Camera!",
+      "description": "is the capital of Iran and is known for its modern and historic places"
+    },
+    {
+      "id": 2,
+      "imageURL": "/ent_2.jpg",
+      "city": "The Fun Zone",
+      "description": " is the capital of Iran and is known for its modern and historic places."
+    },
+    {
+      "id": 3,
+      "imageURL": "/ent_3.jpg",
+      "city": "Spotlight on Fun",
+      "description": "famous for its historical monuments and bridges, is a must-visit destination."
+    },
+    {
+      "id": 4,
+      "imageURL": "/ent_4.jpg",
+      "city": "The Entertainment",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum."
+    },
+    {
+      "id": 5,
+      "imageURL": "/ent_5.jpg",
+      "city": "Delights",
+      "description": "is the capital of Iran and is known for its modern and historic places."
+    },
+    {
+      "id": 6,
+      "imageURL": "/ent_6.jpg",
+      "city": "The Fun Zone",
+      "description": "famous for its historical monuments and bridges, is a must-visit destination."
+    },
+    {
+      "id": 7,
+      "imageURL": "/ent_7.jpg",
+      "city": "Adventure",
+      "description": "is the capital of Iran and is known for its modern and historic places."
+    },
+    {
+      "id": 8,
+      "imageURL": "/ent_8.jpg",
+      "city": "Show",
+      "description": "the capital of Iran and is known for its modern and historic places."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+import Footer from "@/components/Footer";
+import "../globals.css";
+import HeaderPages from "@/components/HeaderPages";
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className="flex flex-col min-h-screen ">
+        <HeaderPages />
+        <main className="flex-1 overflow-y-auto px-4 mx-auto container pt-20">
+          {children}
+        </main>
+        <Footer />
+      </body>
+    </html>
+  );
+}
