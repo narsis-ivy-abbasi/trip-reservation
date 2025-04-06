@@ -2,7 +2,13 @@
 import CardCarousel from "@/components/CardCarousel";
 import TitleCard from "@/components/TitleCard";
 
-import { AlarmClockCheckIcon, ArrowUpFromLine, HouseIcon, Search, ShieldCheck } from "lucide-react";
+import {
+  AlarmClockCheckIcon,
+  ArrowUpFromLine,
+  HouseIcon,
+  Search,
+  ShieldCheck,
+} from "lucide-react";
 import { useEffect, useState } from "react";
 
 interface DataSet {
@@ -60,7 +66,7 @@ export default function Home() {
     <>
       <html>
         <head>
-          <title>✈️ Traveling </title>
+          <title> Traveling </title>
         </head>
         <body>
           <div className="flex flex-col items-center">

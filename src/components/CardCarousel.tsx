@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import CityCard from "./CityCard";
 
 interface City {
@@ -27,31 +27,37 @@ const CardCarousel: React.FC<CarouselProps> = ({
 
   // Determine if the left or right arrow should be disabled
   const isLeftDisabled = currentIndex === 0;
-  const isRightDisabled = currentIndex >= citiesData.length - cardsToShow;
+  const isRightDisabled = currentIndex + cardsToShow >= citiesData.length;
 
   useEffect(() => {
     const handleResize = () => {
-      let newCardsToShow = 4;
       if (window.innerWidth < 768) {
-        newCardsToShow = 1;
+        setCardsToShow(1);
       } else if (window.innerWidth < 1200) {
-        newCardsToShow = 2;
+        setCardsToShow(2);
       } else if (window.innerWidth < 1500) {
-        newCardsToShow = 3;
+        setCardsToShow(3);
+      } else {
+        setCardsToShow(4);
       }
-
-      setCardsToShow(newCardsToShow);
-
-      // Fix currentIndex if it's too high
-      setCurrentIndex((prevIndex) =>
-        Math.min(prevIndex, citiesData.length - newCardsToShow)
-      );
     };
 
     handleResize();
     window.addEventListener("resize", handleResize);
+
     return () => window.removeEventListener("resize", handleResize);
-  }, [citiesData.length]);
+  }, []);
+  const goToPrevious = useCallback(() => {
+    if (!isLeftDisabled) {
+      setCurrentIndex((prevIndex) => prevIndex - 1);
+    }
+  }, [isLeftDisabled]);
+
+  const goToNext = useCallback(() => {
+    if (!isRightDisabled) {
+      setCurrentIndex((prevIndex) => prevIndex + 1);
+    }
+  }, [isRightDisabled]);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -63,27 +69,13 @@ const CardCarousel: React.FC<CarouselProps> = ({
     };
 
     window.addEventListener("keydown", handleKeyDown);
-
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex, isLeftDisabled, isRightDisabled]);
-
-  const goToPrevious = () => {
-    if (!isLeftDisabled) {
-      setCurrentIndex((prevIndex) => prevIndex - 1);
-    }
-  };
-
-  const goToNext = () => {
-    const maxIndex = citiesData.length - cardsToShow;
-    if (!isRightDisabled && currentIndex < maxIndex) {
-      setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, maxIndex));
-    }
-  };
+  }, [goToNext, goToPrevious, isLeftDisabled, isRightDisabled]);
 
   const getVisibleCards = () => {
     if (!citiesData.length) {
       // Return skeleton cards if data is not loaded
-      let cards = [];
+      const cards = [];
       for (let i = 0; i < cardsToShow; i++) {
         cards.push(
           <CityCard
@@ -97,7 +89,7 @@ const CardCarousel: React.FC<CarouselProps> = ({
       return cards;
     }
 
-    let cards = [];
+    const cards = [];
     for (let i = 0; i < cardsToShow; i++) {
       const index = currentIndex + i;
       if (index >= citiesData.length) break; // Stop if we exceed the array bounds
