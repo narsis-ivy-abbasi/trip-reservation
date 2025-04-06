@@ -57,10 +57,6 @@ interface Hotel {
   }[];
 }
 
-interface HotelService {
-  title: string;
-  icon: React.ReactNode;
-}
 type FacilityKeys =
   | "roomService"
   | "Restaurant"
@@ -129,8 +125,8 @@ const HotelDetail = () => {
           <Image
             src={hotel.imageURL}
             alt="image"
-            width={800}  
-  height={400}  
+            width={800}
+            height={400}
             className="w-full h-[190px] lg:h-[400px] rounded-lg shadow-lg object-cover group-hover:grayscale hover:grayscale-0"
           />
         </div>
@@ -139,8 +135,8 @@ const HotelDetail = () => {
             <Image
               src={hotel.imageURL1}
               alt="image"
-              width={800}  
-              height={400}  
+              width={800}
+              height={400}
               className="w-full h-[190px] rounded-lg shadow-lg  object-cover group-hover:grayscale hover:grayscale-0"
             />
           </div>
@@ -148,8 +144,8 @@ const HotelDetail = () => {
             <Image
               src={hotel.imageURL2}
               alt="image"
-              width={800}  
-              height={400}  
+              width={800}
+              height={400}
               className="w-full h-[190px] rounded-lg shadow-lg object-cover group-hover:grayscale hover:grayscale-0"
             />
           </div>

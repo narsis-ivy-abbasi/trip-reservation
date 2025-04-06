@@ -8,7 +8,7 @@ export default function About() {
         <h2 className="text-xl font-semibold mb-2">Our Mission</h2>
         <p className="text-gray-600">
           We aim to make resort booking easy, seamless, and enjoyable. Whether
-          you're looking for a relaxing beach getaway or a mountain retreat, we
+          you are looking for a relaxing beach getaway or a mountain retreat, we
           connect you to the best resorts with just a few clicks.
         </p>
       </section>

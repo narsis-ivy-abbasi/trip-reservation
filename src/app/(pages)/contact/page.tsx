@@ -5,8 +5,8 @@ export default function Contact() {
     <div className="h-full w-3/4 mx-auto select-none w-min-[300px]">
       <h1 className="text-3xl font-semibold mb-6">Contact Us</h1>
       <p className="text-gray-600 mb-8">
-        Have a question? We'd love to hear from you! Fill out the form below or
-        reach us directly.
+        Have a question? We would love to hear from you! Fill out the form below
+        or reach us directly.
       </p>
       <form className="bg-white shadow-md rounded-lg p-6 space-y-4 border border-gray-200">
         <input
