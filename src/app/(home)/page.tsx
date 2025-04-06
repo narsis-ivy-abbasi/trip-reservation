@@ -2,9 +2,8 @@
 import CardCarousel from "@/components/CardCarousel";
 import TitleCard from "@/components/TitleCard";
 
-import { ArrowUpFromLine, HouseIcon, Search, ShieldCheck } from "lucide-react";
+import { AlarmClockCheckIcon, ArrowUpFromLine, HouseIcon, Search, ShieldCheck } from "lucide-react";
 import { useEffect, useState } from "react";
-import { AlarmClockCheckIcon } from "lucide-react";
 
 interface DataSet {
   id: number;
