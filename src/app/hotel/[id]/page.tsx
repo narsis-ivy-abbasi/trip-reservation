@@ -19,7 +19,7 @@ import {
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import React, { JSX, useEffect, useState } from "react";
-import { DateRangePicker, Range } from "react-date-range";
+import { DateRangePicker, Range, RangeKeyDict } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css
 import BookModule from "./BookModule";
@@ -224,7 +224,9 @@ const HotelDetail = () => {
               className="flex flex-col md:flex-row"
               ranges={dateRange}
               minDate={new Date()}
-              onChange={(ranges: any) => setDateRange([ranges.selection])}
+              onChange={(ranges: RangeKeyDict) =>
+                setDateRange([ranges.selection])
+              }
             />
           </div>
           <div className="self-end">
@@ -250,6 +252,7 @@ const HotelDetail = () => {
         <div className="flex items-center gap-6 mt-8 ">
           {Array.from(Array(5).keys()).map((num) => (
             <span
+              key={num}
               onClick={() => setSelectedStar(num + 1)}
               className={`${
                 selectedStar === num + 1 ? "scale-125" : ""

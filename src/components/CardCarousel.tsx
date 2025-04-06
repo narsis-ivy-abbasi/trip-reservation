@@ -27,26 +27,31 @@ const CardCarousel: React.FC<CarouselProps> = ({
 
   // Determine if the left or right arrow should be disabled
   const isLeftDisabled = currentIndex === 0;
-  const isRightDisabled = currentIndex + cardsToShow >= citiesData.length;
+  const isRightDisabled = currentIndex >= citiesData.length - cardsToShow;
 
   useEffect(() => {
     const handleResize = () => {
+      let newCardsToShow = 4;
       if (window.innerWidth < 768) {
-        setCardsToShow(1);
+        newCardsToShow = 1;
       } else if (window.innerWidth < 1200) {
-        setCardsToShow(2);
+        newCardsToShow = 2;
       } else if (window.innerWidth < 1500) {
-        setCardsToShow(3);
-      } else {
-        setCardsToShow(4);
+        newCardsToShow = 3;
       }
+
+      setCardsToShow(newCardsToShow);
+
+      // Fix currentIndex if it's too high
+      setCurrentIndex((prevIndex) =>
+        Math.min(prevIndex, citiesData.length - newCardsToShow)
+      );
     };
 
     handleResize();
     window.addEventListener("resize", handleResize);
-
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [citiesData.length]);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -69,8 +74,9 @@ const CardCarousel: React.FC<CarouselProps> = ({
   };
 
   const goToNext = () => {
-    if (!isRightDisabled) {
-      setCurrentIndex((prevIndex) => prevIndex + 1);
+    const maxIndex = citiesData.length - cardsToShow;
+    if (!isRightDisabled && currentIndex < maxIndex) {
+      setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, maxIndex));
     }
   };
 
