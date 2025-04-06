@@ -1,31 +1,29 @@
 "use client";
-import React, { JSX } from "react";
+import {
+  BedDouble,
+  Dumbbell,
+  Fish,
+  Globe,
+  Loader,
+  MapPinned,
+  MoonStar,
+  ParkingSquare,
+  School,
+  Shield,
+  Shirt,
+  Star,
+  Utensils,
+  WavesLadder,
+  Wifi,
+} from "lucide-react";
+import Image from "next/image";
+import { useParams } from "next/navigation";
+import React, { JSX, useEffect, useState } from "react";
 import { DateRangePicker, Range } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css
-import {
-  BedDouble,
-  MapPinned,
-  MoonStar,
-  Star,
-  Wifi,
-  School,
-  Utensils,
-  Dumbbell,
-  ParkingSquare,
-  Globe,
-  Shield,
-  WavesLadder,
-  Fish,
-  Shirt,
-  Loader,
-} from "lucide-react";
-import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
-import Review from "./Review";
-import { Spinner } from "@nextui-org/react";
 import BookModule from "./BookModule";
-import Image from "next/image";
+import Review from "./Review";
 
 interface Hotel {
   id: number;
