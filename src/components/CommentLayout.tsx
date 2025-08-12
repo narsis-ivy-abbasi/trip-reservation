@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import UserComment from "./UserComment";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 type Comment = {
   name: string;
@@ -79,10 +80,12 @@ export default function CommentLayout({ comments }: CommentLayoutProps) {
                 <UserComment
                   name={c.name}
                   iconImg={
-                    <img
+                    <Image
                       src={c.iconImg}
                       alt={c.name}
                       className="w-full h-full object-cover"
+                      width={100}
+                      height={100}
                     />
                   }
                   title={c.title}

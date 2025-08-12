@@ -14,17 +14,17 @@ export default function Rent() {
       <p className="text-justify mt-4">
         Travel is in the blood of us Iranians, and some of the best memories of
         our lives are made during our trips, especially when traveling with
-        family or close friends. Whether you're renting a villa in the north, a
-        suite in Kish, or a suite in Isfahan or Shiraz, whether it's a villa
-        with a pool, a cozy forest cabin, or a beachfront property, whether{" "}
+        family or close friends. Whether you are renting a villa in the north, a
+        suite in Kish, or a suite in Isfahan or Shiraz, whether it is a villa
+        with a pool, a cozy forest cabin, or a beachfront property, whether
         {!show && "..."}
         {show && (
           <>
-            you're looking for a budget-friendly place or a luxurious and
+            you are looking for a budget-friendly place or a luxurious and
             upscale villa, whatever type of accommodation you have in mind and
             at any price range, you can find it on Ivy. You can read reviews
             from previous guests and finally book your ideal stay online with
-            one of Ivy's hundreds of thoughtful and trustworthy hosts. And rest
+            one of Ivy hundreds of thoughtful and trustworthy hosts. And rest
             assured, the entire Ivy team will be with you every step of your
             journey. 😊
           </>
