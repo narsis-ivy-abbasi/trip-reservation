@@ -2,27 +2,29 @@ import { Mail, MapPinHouse, PhoneCall } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="h-full w-3/4 mx-auto select-none w-min-[300px]">
-      <h1 className="text-3xl font-semibold mb-6">Contact Us</h1>
+    <div className="max-w-4xl mx-auto p-8 bg-white rounded-lg shadow-md select-none min-w-[320px]">
+      <h1 className="text-2xl font-extrabold mb-6 text-indigo-700 border-b-4 border-indigo-300 pb-2">
+        Contact Us
+      </h1>
       <p className="text-gray-600 mb-8">
-        Have a question? We would love to hear from you! Fill out the form below
-        or reach us directly.
+        We’re here to help! Whether you have a question, feedback, or just want
+        to say hello, you can reach us through the details below.
       </p>
       <form className="bg-white shadow-md rounded-lg p-6 space-y-4 border border-gray-200">
         <input
           type="text"
           placeholder="Your Name"
-          className="w-full p-3 border rounded-md border border-gray-200"
+          className="w-full p-3 rounded-md border border-gray-200"
         />
         <input
           type="email"
           placeholder="Your Email"
-          className="w-full p-3 border rounded-md border border-gray-200"
+          className="w-full p-3 rounded-md border border-gray-200"
         />
         <textarea
           placeholder="Your Message"
           rows={5}
-          className="w-full p-3 border rounded-md border border-gray-200"
+          className="w-full p-3 rounded-md border border-gray-200"
         ></textarea>
         <button className="w-full cursor-pointer bg-blue-500 py-2 px-6 rounded-lg text-white hover:bg-blue-400 transition-all">
           Send Message
@@ -55,6 +57,12 @@ export default function Contact() {
             elit. Fugit, quaerat.
           </div>
         </div>
+      </div>
+      <div className="mt-8">
+        <p>
+          Our team is available Monday–Friday from 9 AM to 6 PM. We’ll do our
+          best to respond within 24 hours.
+        </p>
       </div>
     </div>
   );

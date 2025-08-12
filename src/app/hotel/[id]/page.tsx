@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
-import React, { JSX, useEffect, useState } from "react";
+import { JSX, useEffect, useState } from "react";
 import { DateRangePicker, Range, RangeKeyDict } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css
@@ -68,6 +68,7 @@ type FacilityKeys =
   | "InternetAccess"
   | "Minibar"
   | "SafeBox";
+
 const hotelServices: { title: FacilityKeys; icon: JSX.Element }[] = [
   { title: "roomService", icon: <School /> },
   { title: "Restaurant", icon: <Utensils /> },
@@ -86,6 +87,7 @@ const HotelDetail = () => {
   const [hotel, setHotel] = useState<Hotel | null>(null);
   const [selectedStar, setSelectedStar] = useState(3);
   const [showModule, setShowModule] = useState(false);
+  const [newComment, setNewComment] = useState("");
 
   const handleShowModule = () => setShowModule((prev) => !prev);
   const [dateRange, setDateRange] = useState<Range[]>([
@@ -108,6 +110,29 @@ const HotelDetail = () => {
     };
     fetchHotel();
   }, [id]);
+
+  //add new review
+  const handlePostReview = () => {
+    if (!newComment.trim() || !hotel) return;
+    const newReview = {
+      userImg: "/default-user.jpg",
+      name: "Guest",
+      time: new Date().toLocaleDateString(),
+      comment: newComment,
+      starRate: selectedStar.toString(),
+    };
+
+    const updatedReviews = [newReview, ...hotel.review];
+    const updatedHotel = { ...hotel, review: updatedReviews };
+    setHotel(updatedHotel);
+
+    localStorage.setItem(
+      `hotel-${hotel.id}-reviews`,
+      JSON.stringify(updatedReviews)
+    );
+
+    setNewComment("");
+  };
 
   if (!hotel) {
     return (
@@ -276,9 +301,14 @@ const HotelDetail = () => {
           <input
             type="text"
             placeholder="Leave your opinion..."
+            value={newComment}
+            onChange={(e) => setNewComment(e.target.value)}
             className="outline-none"
           />
-          <button className="cursor-pointer bg-blue-500 py-2 px-6 rounded-lg text-white hover:bg-blue-400 transition-all">
+          <button
+            onClick={handlePostReview}
+            className="cursor-pointer bg-blue-500 py-2 px-6 rounded-lg text-white hover:bg-blue-400 transition-all"
+          >
             Post
           </button>
         </div>

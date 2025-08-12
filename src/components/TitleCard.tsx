@@ -8,7 +8,7 @@ interface TitleCardProps {
 
 export default function TitleCard({ iconImg, title, des }: TitleCardProps) {
   return (
-    <div className="flex border border-gray-200 gap-5 p-5 rounded-2xl items-center shadow-sm w-80 md:w-110 h-25 md:h-30">
+    <div className="flex border border-indigo-400 gap-5 p-5 rounded-2xl items-center shadow-sm w-80 md:w-110 h-25 md:h-30">
       <div>{iconImg}</div>
       <div>
         <h1 className="font-bold">{title}</h1>

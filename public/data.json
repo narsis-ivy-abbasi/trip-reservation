@@ -4,31 +4,31 @@
       "id": 1,
       "imageURL": "/yazd.jpg",
       "city": "Yazd",
-      "description": "Yazd Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum."
+      "description": "Yazd is a historic desert city in Iran known for its windcatchers and unique adobe architecture."
     },
     {
       "id": 2,
       "imageURL": "/tehran.jpg",
       "city": "Tehran",
-      "description": "Tehran is the capital of Iran and is known for its modern and historic places."
+      "description": "Tehran is Iran’s vibrant capital, blending modern life with historic palaces and bustling bazaars."
     },
     {
       "id": 3,
       "imageURL": "/esfehan.jpg",
       "city": "Esfahan",
-      "description": "Esfahan, famous for its historical monuments and bridges, is a must-visit destination."
+      "description": "Esfahan is famed for its stunning Islamic architecture, grand squares, and ancient bridges."
     },
     {
       "id": 4,
       "imageURL": "/kashan.jpg",
       "city": "Kashan",
-      "description": "Kashan Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum."
+      "description": "Kashan offers beautiful historic houses, traditional gardens, and a rich Persian heritage."
     },
     {
       "id": 5,
       "imageURL": "/kish.jpg",
       "city": "Kish",
-      "description": "Kish is the capital of Iran and is known for its modern and historic places."
+      "description": "Kish is a sunny Persian Gulf island known for beaches, shopping centers, and water sports."
     },
     {
       "id": 6,
@@ -40,13 +40,13 @@
       "id": 7,
       "imageURL": "/gheshm.jpg",
       "city": "Gheshm",
-      "description": "Gheshm is the capital of Iran and is known for its modern and historic places."
+      "description": "Qeshm Island is celebrated for its unique geology, mangroves, and traditional island culture."
     },
     {
       "id": 8,
       "imageURL": "/amol.jpg",
       "city": "Amol",
-      "description": "Amol is the capital of Iran and is known for its modern and historic places."
+      "description": "Amol lies by the Caspian Sea, surrounded by lush forests and views of Mount Damavand."
     }
   ],
   "hotels": [
@@ -56,7 +56,7 @@
       "imageURL1": "/hr_2.jpg",
       "imageURL2": "/hr_3.jpg",
       "city": "Abbasi Hotel",
-      "description": "Abbasi Hotel Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "description": "Abbasi Hotel in Esfahan is a historic caravanserai turned luxury hotel with Persian gardens and ornate décor.",
       "price": "200.00",
       "location": "Tehran",
       "noOfBed": "2",
@@ -77,14 +77,14 @@
         {
           "userImg": "/ent_1.jpg",
           "name": "John Doe",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I like it",
           "starRate": "3"
         },
         {
           "userImg": "/ent_2.jpg",
           "name": "Petter",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I really enjoy this trip!",
           "starRate": "5"
         }
@@ -96,7 +96,7 @@
       "imageURL1": "/hr_5.jpg",
       "imageURL2": "/hr_6.jpg",
       "city": "Espinas Palace",
-      "description": "Espinas Palace is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "description": "Espinas Palace in Tehran is a five-star modern hotel offering panoramic city views and upscale amenities.",
       "price": "700.00",
       "location": "Tehran",
       "noOfBed": "3",
@@ -117,14 +117,14 @@
         {
           "userImg": "/ent_3.jpg",
           "name": "Sara Rey",
-          "time": "6",
+          "time": "6/2/2021",
           "comment": "I like it",
           "starRate": "4"
         },
         {
           "userImg": "/ent_4.jpg",
           "name": "David",
-          "time": "1",
+          "time": "6/6/2023",
           "comment": "I really enjoy this trip!",
           "starRate": "3"
         }
@@ -136,7 +136,7 @@
       "imageURL1": "/hr_8.jpg",
       "imageURL2": "/hr_9.jpg",
       "city": "Persian Esteghlal",
-      "description": "Persian Esteghlal, famous for its historical monuments and bridges, is a must-visit destination. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "description": "Persian Esteghlal Hotel in Tehran is a landmark twin-tower property with elegant rooms and fine dining.",
       "price": "300.00",
       "location": "Tehran",
       "noOfBed": "4",
@@ -157,14 +157,14 @@
         {
           "userImg": "/ent_5.jpg",
           "name": "John Doe",
-          "time": "22",
+          "time": "4/2/2021",
           "comment": "Overall it is good",
           "starRate": "3"
         },
         {
           "userImg": "/ent_6.jpg",
           "name": "Jenifer",
-          "time": "43",
+          "time": "6/5/2024",
           "comment": "I really enjoy this trip!",
           "starRate": "5"
         }
@@ -176,7 +176,7 @@
       "imageURL1": "/hr_10.jpg",
       "imageURL2": "/hr_2.jpg",
       "city": "Saraye Ameriha",
-      "description": "Saraye Ameriha Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, earum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "description": "Saraye Ameriha in Kashan is a restored historic house showcasing traditional Persian architecture and courtyards.",
       "price": "200.00",
       "location": "Tehran",
       "noOfBed": "2",
@@ -197,14 +197,14 @@
         {
           "userImg": "/ent_7.jpg",
           "name": "John",
-          "time": "9",
+          "time": "6/2/2021",
           "comment": "I like it",
           "starRate": "3"
         },
         {
           "userImg": "/ent_8.jpg",
           "name": "Bill",
-          "time": "38",
+          "time": "1/2/2024",
           "comment": "Not bad",
           "starRate": "2"
         }
@@ -216,7 +216,7 @@
       "imageURL1": "/hr_2.jpg",
       "imageURL2": "/hr_1.jpg",
       "city": "Laleh",
-      "description": "Laleh is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "description": "Laleh Hotel in Tehran offers comfortable rooms, diverse dining, and easy access to cultural attractions.",
       "price": "10.00",
       "location": "Tehran",
       "noOfBed": "1",
@@ -237,14 +237,14 @@
         {
           "userImg": "/ent_1.jpg",
           "name": "Doe",
-          "time": "23",
+          "time": "6/2/2021",
           "comment": "I like it",
           "starRate": "3"
         },
         {
           "userImg": "/ent_2.jpg",
           "name": "Oliver.o",
-          "time": "13",
+          "time": "6/2/2021",
           "comment": "Best trip!",
           "starRate": "5"
         }
@@ -256,7 +256,7 @@
       "imageURL1": "/hr_7.jpg",
       "imageURL2": "/hr_8.jpg",
       "city": "Almas",
-      "description": "Almas, famous for its historical monuments and bridges, is a must-visit destination. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "description": "Almas Hotel in Mashhad combines modern luxury with proximity to the holy shrine and city landmarks.",
       "price": "200.00",
       "location": "Tehran",
       "noOfBed": "3",
@@ -277,14 +277,14 @@
         {
           "userImg": "/ent_3.jpg",
           "name": "Rose",
-          "time": "10",
+          "time": "6/2/2021",
           "comment": "I like it",
           "starRate": "3"
         },
         {
           "userImg": "/ent_4.jpg",
           "name": "Joe",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "Yeess",
           "starRate": "5"
         }
@@ -317,14 +317,14 @@
         {
           "userImg": "/ent_5.jpg",
           "name": "Justin Doe",
-          "time": "8",
+          "time": "2/10/2024",
           "comment": "I like it",
           "starRate": "3"
         },
         {
           "userImg": "/ent_6.jpg",
           "name": "Rihanna",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I really enjoy this trip!",
           "starRate": "5"
         }
@@ -336,7 +336,7 @@
       "imageURL1": "/hr_5.jpg",
       "imageURL2": "/hr_4.jpg",
       "city": "Dad",
-      "description": "Dad is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "description": "Dad Hotel in Yazd provides cozy accommodations and warm hospitality near the lush Caspian region.",
       "price": "100.00",
       "location": "Yazd",
       "noOfBed": "2",
@@ -357,14 +357,14 @@
         {
           "userImg": "/ent_7.jpg",
           "name": "Nahro P",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I like it",
           "starRate": "4"
         },
         {
           "userImg": "/ent_8.jpg",
           "name": "Mio M.",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I really enjoy this trip!",
           "starRate": "5"
         }
@@ -376,7 +376,7 @@
       "imageURL1": "/hr_10.jpg",
       "imageURL2": "/hr_8.jpg",
       "city": "Ghasr",
-      "description": "Ghasr is the capital of Iran and is known for its modern and historic places. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel error fugiat nostrum quas qui eligendi eaque provident minus incidunt, officia, natus voluptatum eius, exercitationem neque commodi officiis enim doloremque non tempora. Omnis illum quo et error quaerat doloremque aliquid tempore, eius praesentium aspernatur, eaque veritatis deleniti molestias dolore blanditiis?",
+      "description": "Ghasr Hotel in Esfehan provides cozy accommodations and warm hospitality near the lush Caspian region.",
       "price": "130.00",
       "location": "Esfehan",
       "noOfBed": "2",
@@ -397,14 +397,14 @@
         {
           "userImg": "/ent_1.jpg",
           "name": "John Doe",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I like it",
           "starRate": "3"
         },
         {
           "userImg": "/ent_2.jpg",
           "name": "Petter",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I really enjoy this trip!",
           "starRate": "5"
         }
@@ -437,14 +437,14 @@
         {
           "userImg": "/ent_1.jpg",
           "name": "John Doe",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I like it",
           "starRate": "3"
         },
         {
           "userImg": "/ent_2.jpg",
           "name": "Petter",
-          "time": "3",
+          "time": "8/11/2024",
           "comment": "I really enjoy this trip!",
           "starRate": "5"
         }

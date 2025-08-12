@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Narges",
+    "iconImg": "/user_1.jpg",
+    "title": "Guest of Ivy from 2002",
+    "desc": "Peaceful surroundings, great amenities, and fantastic value for money."
+  },
+  {
+    "name": "Sara",
+    "iconImg": "/user_2.jpg",
+    "title": "Guest of Ivy from 2015",
+    "desc": "Amazing experience! Everything was perfect and the host was very welcoming."
+  },
+  {
+    "name": "Kian",
+    "iconImg": "/user_3.jpg",
+    "title": "Guest of Ivy from 2018",
+    "desc": "The location was wonderful and the villa exceeded my expectations."
+  },
+  {
+    "name": "Leila",
+    "iconImg": "/user_4.jpg",
+    "title": "Guest of Ivy from 2010",
+    "desc": "A truly relaxing vacation spot with excellent facilities and atmosphere."
+  },
+  {
+    "name": "Maryam",
+    "iconImg": "/ent_4.jpg",
+    "title": "Guest of Ivy from 2021",
+    "desc": "The service was top-notch and the views were breathtaking."
+  },
+  {
+    "name": "Ehsan",
+    "iconImg": "/ent_6.jpg",
+    "title": "Guest of Ivy from 2019",
+    "desc": "Loved the pool area and the easy access to the beach."
+  }
+]
