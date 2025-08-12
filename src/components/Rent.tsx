@@ -24,9 +24,9 @@ export default function Rent() {
             upscale villa, whatever type of accommodation you have in mind and
             at any price range, you can find it on Ivy. You can read reviews
             from previous guests and finally book your ideal stay online with
-            one of Ivy hundreds of thoughtful and trustworthy hosts. And rest
-            assured, the entire Ivy team will be with you every step of your
-            journey. 😊
+            one of Ivy&apos;s hundreds of thoughtful and trustworthy hosts. And
+            rest assured, the entire Ivy team will be with you every step of
+            your journey. 😊
           </>
         )}
       </p>
